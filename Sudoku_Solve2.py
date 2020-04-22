@@ -161,4 +161,4 @@ def solve(grid,step):
 def resolution(grid):
     create_image_grid(grid,1,(0,0),0,(255,255,255))
     step=0
-    return solve(grid,step)
+    print(solve(grid,step))
